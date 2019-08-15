@@ -1,2 +1,2 @@
 [build]
-  publish = "test-output"
+  publish = "~/test-output"
