@@ -18,7 +18,7 @@ install:
   - pip install -q pytest
   - python3 setup.py build
 before_script:
-  - git clone git://github.com/overviewer/Minecraft-Overviewer-Addons.git ~/mcoa/
+  - git clone git://github.com/Bartixxx32/Minecraft-Overviewer-Addons.git ~/mcoa/
   - mkdir -p ~/.minecraft/versions/${MC_VERSION}/
   - wget -N https://overviewer.org/textures/${MC_VERSION} -O ~/.minecraft/versions/${MC_VERSION}/${MC_VERSION}.jar
 script:
