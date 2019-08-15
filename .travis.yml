@@ -17,8 +17,8 @@ install:
   - pip install -q networkx
   - pip install -q pytest
   - python3 setup.py build
-  - apt update
-  - apt install nodejs npm -y
+  - sudo apt update
+  - sudo apt install nodejs npm -y
   - npm install -g netlify-cli
 before_script:
   - git clone git://github.com/Bartixxx32/Minecraft-Overviewer-Addons.git ~/mcoa/
